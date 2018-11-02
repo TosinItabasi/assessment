@@ -1,0 +1,58 @@
+body {
+    background-color: #EFEFEF;
+    color: #666;
+    margin: -1.3em auto;
+}
+
+.center{text-align: center;}
+
+.wrap{
+    background: #FFF;
+    width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2em;
+}
+@media only screen and (max-width: 960px){
+    .wrap{
+        background: #FFF;
+        width: 80%;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 2em;
+    }
+}
+
+button {
+    padding: 5px 20px;
+    margin-left: 10px;
+    background-color: rgb(77, 168, 204);
+    border-color: blue;
+    border-style: none;
+    color: #FFF;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.5;
+}
+
+input {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: left;
+}
+
+h3{
+    color: #666;
+    text-align: left;
+    font-weight: 100;
+}
+
+#result-area p{
+    text-align: left;
+    border-bottom: #666 2px solid;
+    padding: 1em;
+}
